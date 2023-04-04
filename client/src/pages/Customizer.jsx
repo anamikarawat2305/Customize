@@ -57,7 +57,7 @@ const Customizer = () => {
       setGeneratingImg(true);
       // send the prompt to the backend to generate an image using the DALL-E model 
       // the image is returned as a base64 string 
-      const response = await fetch('http://localhost:5000/api/v1/dalle', {
+      const response = await fetch('https://custom-back.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
