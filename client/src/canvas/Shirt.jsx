@@ -8,8 +8,10 @@ import state from '../store';
 
 const Shirt = () => {
   const snap = useSnapshot(state);
-  const { nodes, materials } = useGLTF('/shirt_baked.glb');
   
+  const { nodes, materials } = useGLTF('/shirt_baked.glb');
+  //For creating .glb files, I used Blender and the glTF 2.0 exporter plugin - https://sketchfab.com/3d-models/popular
+
   const logoTexture = useTexture(snap.logoDecal);
   const fullTexture = useTexture(snap.fullDecal);
 
