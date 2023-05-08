@@ -22,6 +22,7 @@ In this project, we have used:
 
 # Screenshots
 
+![WhatsApp Image 2023-05-08 at 22 30 37](https://user-images.githubusercontent.com/95397876/236885420-e09987ef-6915-4c46-b037-c124c83db6de.jpg)
 
 ## Installation of packages in client folder
 
