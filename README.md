@@ -23,20 +23,3 @@ In this project, we have used:
 # Screenshots
 
 
-## Installation of packages in client folder
-
-- npm create vite@latest -- --template react client
-- cd client
-- npm install
-- npm run dev
-- npm install three @react-three/fiber @react-three/drei maath valtio react-color framer-motion
-
-Install tailwind CSS with vite
-- npm install -D tailwindcss postcss autoprefixer
-- npx tailwindcss init -p
-Installation of packages in server folder
-- cd server
-- npm init -y
-- changes in package.json file - type & start
-- npm install cloudinary cors dotenv express mongoose nodemon openai
-- npm start
