@@ -23,24 +23,3 @@ In this project, we have used:
 # Screenshots
 
 ![WhatsApp Image 2023-05-08 at 22 30 37](https://user-images.githubusercontent.com/95397876/236885420-e09987ef-6915-4c46-b037-c124c83db6de.jpg)
-
-<<<<<<< HEAD
-=======
-## Installation of packages in client folder
-
-- npm create vite@latest -- --template react client
-- cd client
-- npm install
-- npm run dev
-- npm install three @react-three/fiber @react-three/drei maath valtio react-color framer-motion
-
-Install tailwind CSS with vite
-- npm install -D tailwindcss postcss autoprefixer
-- npx tailwindcss init -p
-Installation of packages in server folder
-- cd server
-- npm init -y
-- changes in package.json file - type & start
-- npm install cloudinary cors dotenv express mongoose nodemon openai
-- npm start
->>>>>>> a8d37688c99860e7dc74b3cf90a1a8ab8964fe23
